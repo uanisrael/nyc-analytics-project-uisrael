@@ -90,6 +90,11 @@ sources:
           - name: landmark
             description: Nearby landmark or point of interest
 
+  - name: restaurant_raw
+    description: Raw restaurant application data loaded from NYC Open Data
+    database: uanisrael-cis9440-s26
+    schema: nyc_hw3_raw_data
+    tables:
       - name: source_nyc_open_restaurant_apps
         description: |
           NYC Open Restaurant Applications data.
